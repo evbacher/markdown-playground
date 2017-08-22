@@ -1,5 +1,20 @@
+## Code blocks using backticks
+
 You can use three or more backticks (or tildes) to denote code blocks.
-If you want to display backticks (or tildes), use the other to start and end the code block:
+The following markup:
+
+~~~
+```
+This is a code block.
+   White space gets preserved.
+   
+   function testCodeBlock() {
+     // do something here
+   }
+```
+~~~
+
+renders as:
 
 ```
 This is a code block.
@@ -9,6 +24,10 @@ This is a code block.
      // do something here
    }
 ```
+
+## Displaying literal code blocks
+
+If you want to display backticks (or tildes), use the other to start and end the code block:
 
 Here's a code block that displays code block markup:
 
@@ -31,6 +50,8 @@ This is the markup for the code block above (we had to use four backticks to sta
 ```
 ~~~
 ````
+
+## Language syntax highlighting
 
 You can also do language syntax highlighting with backtick code blocks.
 Language support and abbreviations vary across platforms, but `java`, `c`, `python`,
