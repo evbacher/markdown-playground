@@ -9,3 +9,5 @@ Let's see if ~~strikethrough~~ text works. Seems to be fine.
 ```
 Could use a code block as a comment? (but only if doc has no code blocks.
 ```
+
+You can do `inline code for comments too`, but again, if the doc already contains inline code, that could be confusing.
